@@ -38,12 +38,30 @@
         background-color: #ddd;
         font-size: 40px;
         margin: 40px;
-        height: 200px;
+        /* height: 200px;  */
 
         /* FLEXBOX */
         display: flex;
-        align-items: stretch;
-        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+      }
+
+      .el--1{
+        align-self: flex-start;
+        /* justify-content: flex-start; */
+      }
+
+      .el--4 {
+        order: -1;
+      }
+
+      .el--6 {
+        order: -2 ;
+      }
+
+      .el--3 {
+        order: 1;
       }
     </style>
   </head>
